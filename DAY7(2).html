@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eee;
+    }
+    .gallery-container {
+      max-width: 900px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    .gallery-title {
+      background-color: black;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      border: 3px solid orange;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+    <div class="gallery-title">Photo Gallery</div>
+    <div class="gallery">
+      <img src="img-23.jpg" alt="Photo 1" />
+      <img src="IMG-454455.jpg" alt="Photo 2" />
+      <img src="img-23.jpg" alt="Photo 3" />
+      <img src="IMG-454455.jpg" alt="Photo 4" />
+      <img src="IMAGE.123.jpg" alt="Photo 5" />
+      <img src="image1.jpg.png" alt="Photo 6" />
+      <img src="IMG-454455.jpg" alt="Photo 7" />
+      <img src="image1.jpg.png" alt="Photo 8" />
+    </div>
+  </div>
+</body>
+</html>
